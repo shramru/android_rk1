@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onResume() {
-        super.onStart();
+        super.onResume();
         buttonTown.setText(weatherStorage.getCurrentCity().name());
         setWeather();
 
