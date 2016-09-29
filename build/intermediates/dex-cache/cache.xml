@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/vladislav/android-projects/RK1/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/home/vladislav/android-projects/RK1/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_a86f2ecf7c32a30747a32c7ad0259af9f07a0649/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vladislav/android-projects/RK1/app/libs/lib.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f09514db01e18f4c17688d01e4143f1d87d9c98c">
+        <dex dex="/home/vladislav/android-projects/RK1/app/build/intermediates/transforms/dex/debug/folders/1000/2/lib_0188a7c7531be3571917dea2ef2d1a01f04fd9b9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vladislav/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/home/vladislav/android-projects/RK1/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.9.0_40f89f9c3fae1d8f0feb6cc7821724dfc7ba3777/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vladislav/android-projects/RK1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/home/vladislav/android-projects/RK1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_65b3f826486ef16456cbfdac64a97c602521efaa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vladislav/android-projects/RK1/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/home/vladislav/android-projects/RK1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_f81352a13437c17ddbbe8020a04c55f59ea08ad4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vladislav/android-projects/RK1/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/home/vladislav/android-projects/RK1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_58caa415da9547346a887f5cd16cb178316f5bcf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vladislav/android-projects/RK1/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/home/vladislav/android-projects/RK1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_0d9f5a3ebfe19780ded982e4f0f9673d68605dc6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vladislav/android-projects/RK1/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/home/vladislav/android-projects/RK1/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_c3a7001fcaae08cac8c77802ccb44fcf2d7a7255/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vladislav/android-projects/RK1/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/home/vladislav/android-projects/RK1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_34eeeb25284ec8c1ca91b1e660369d19f0aa2c8d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vladislav/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="/home/vladislav/android-projects/RK1/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.4.1_c0148aa6f1fffbe1f4fbcec21804cf2e32c1bf2b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vladislav/android-projects/RK1/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/home/vladislav/android-projects/RK1/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_267d8dddfaa6bb20e43c32f1d0d21eb405cd89ea/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vladislav/android-projects/RK1/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/home/vladislav/android-projects/RK1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_cbb237e1b9a2834b077ca7427905bd8b51266288/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vladislav/android-projects/RK1/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8b229e2f5707e460fae6749eb51b2e68edb7955e">
+        <dex dex="/home/vladislav/android-projects/RK1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_8c6d84e3b262a3004987302b344399d9fc55e16a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vladislav/android-projects/RK1/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/home/vladislav/android-projects/RK1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_13d13278e232d90f24465b3899d617217d52a45c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vladislav/android-projects/RK1/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/home/vladislav/android-projects/RK1/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_9bea356092e17e4cf91083dbc8239c466ed5bbc8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vladislav/android-projects/RK1/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/vladislav/android-projects/RK1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_81196d4fc2dd3c5f91cb2eefc78c3c9f1d8adf23/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vladislav/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.4/695b63d702f505b9b916e02272e3b6381bade7f/gson-2.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
+        <dex dex="/home/vladislav/android-projects/RK1/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.4_2d4b42c3028edf1c0fbc93a641d51d57a5553d3c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vladislav/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/home/vladislav/android-projects/RK1/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_08fb2913e23491a5f2b8f45b3189a4c7e70831d0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vladislav/android-projects/RK1/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="ffb0542c34021a029bbd1492329d65394ba3acb6">
+        <dex dex="/home/vladislav/android-projects/RK1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_3dd208c22c1efa0bea043bfbc85552979fe37c6e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vladislav/android-projects/RK1/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/home/vladislav/android-projects/RK1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_cb6f07855c8c78a4723a2a4e2963f9bc53019b2d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vladislav/android-projects/RK1/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/home/vladislav/android-projects/RK1/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_b1f89b91e95f70d67c1ef088b5d003108a8913e5/classes.dex" />
+    </item>
+
+</items>
