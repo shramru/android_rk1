@@ -33,5 +33,8 @@ public class WeatherService extends IntentService {
         } catch (IOException e) {
             Toast.makeText(this, "There was an error during weather loading: " + e.getMessage(), Toast.LENGTH_SHORT).show();
         }
+
+        if (intent.getBooleanExtra("once", false))
+            stopSelf();
     }
 }
