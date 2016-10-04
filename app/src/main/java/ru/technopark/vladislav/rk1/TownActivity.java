@@ -1,6 +1,5 @@
 package ru.technopark.vladislav.rk1;
 
-import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -25,12 +24,7 @@ public class TownActivity extends AppCompatActivity {
                 @Override
                 public void onClick(View v) {
                     Button b = (Button) v;
-                    WeatherStorage.getInstance(TownActivity.this).setCurrentCity(City.valueOf(b.getText().toString()));
-
-                    Intent intent = new Intent(TownActivity.this, WeatherService.class);
-                    intent.putExtra("once", true);
-                    startService(intent);
-
+                    WeatherStorage.getInstance(TownActivity.this).setCurrentCity(c);
                     finish();
                 }
             });

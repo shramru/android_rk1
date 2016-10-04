@@ -5,6 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
+import android.support.v4.content.LocalBroadcastManager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
@@ -67,29 +68,32 @@ public class MainActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         buttonTown.setText(weatherStorage.getCurrentCity().name());
-        setWeather();
 
-        broadcastReceiver = new BroadcastReceiver() {
+        broadcastReceiver = new BroadcastReceiver () {
             @Override
             public void onReceive(Context context, Intent intent) {
-                setWeather();
+                if (intent.getAction().equals(WEATHER_ACTION))
+                    setWeather();
             }
         };
         IntentFilter intentFilter = new IntentFilter(WEATHER_ACTION);
-        registerReceiver(broadcastReceiver, intentFilter);
+        LocalBroadcastManager.getInstance(this).registerReceiver(broadcastReceiver, intentFilter);
+
+        Intent intent = new Intent(this, WeatherService.class);
+        startService(intent);
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-        unregisterReceiver(broadcastReceiver);
+        LocalBroadcastManager.getInstance(this).unregisterReceiver(broadcastReceiver);
     }
 
     void setWeather() {
         Weather weather = weatherStorage.getLastSavedWeather(weatherStorage.getCurrentCity());
         if (weather != null) {
             City city = weatherStorage.getCurrentCity();
-            weatherText.setText(String.format("%s - %d (%s)", city.name(), weather.getTemperature(), weather.getDescription()));
+            weatherText.setText(String.format("%s: %d (%s)", city.name(), weather.getTemperature(), weather.getDescription()));
         }
     }
 }
